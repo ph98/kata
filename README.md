@@ -1,3 +1,10 @@
+## Requirements: 
+You can find the application requirements and figma design in this [link](https://jusmundi.notion.site/Front-end-Specialists-Kata-d427f29aad184336909f90d2b18e88cc).
+
+
+
+## Default NextJS README:
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
