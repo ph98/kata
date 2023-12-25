@@ -1,0 +1,93 @@
+@font-face {
+  font-family: Larken;
+  src: url('./Larken-Bold.eot'); /* IE9 Compat Modes */
+  src:
+    url('./Larken-Bold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./Larken-Bold.woff2') format('woff2'),
+    /* Modern Browsers */ url('./Larken-Bold.woff') format('woff'),
+    /* Modern Browsers */ url('./Larken-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+  
+    font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Larken;
+  src: url('./Larken-BoldItalic.eot'); /* IE9 Compat Modes */
+  src:
+    url('./Larken-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./Larken-BoldItalic.woff2') format('woff2'),
+    /* Modern Browsers */ url('./Larken-BoldItalic.woff') format('woff'),
+    /* Modern Browsers */ url('./Larken-BoldItalic.ttf')
+      format('truetype'); /* Safari, Android, iOS */
+  
+      font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Larken;
+  src: url('./Larken-ExtraBold.eot'); /* IE9 Compat Modes */
+  src:
+    url('./Larken-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./Larken-ExtraBold.woff2') format('woff2'),
+    /* Modern Browsers */ url('./Larken-ExtraBold.woff') format('woff'),
+    /* Modern Browsers */ url('./Larken-ExtraBold.ttf') format('truetype'); /* Safari, Android, iOS */
+  
+    font-weight: 800; /* Adjust the weight value based on your font files */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Larken;
+  src: url('./Larken-Italic.eot'); /* IE9 Compat Modes */
+  src:
+    url('./Larken-Italic.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./Larken-Italic.woff2') format('woff2'),
+    /* Modern Browsers */ url('./Larken-Italic.woff') format('woff'),
+    /* Modern Browsers */ url('./Larken-Italic.ttf') format('truetype'); /* Safari, Android, iOS */
+  
+    font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Larken;
+  src: url('./Larken-Light.eot'); /* IE9 Compat Modes */
+  src:
+    url('./Larken-Light.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./Larken-Light.woff2') format('woff2'),
+    /* Modern Browsers */ url('./Larken-Light.woff') format('woff'),
+    /* Modern Browsers */ url('./Larken-Light.ttf') format('truetype'); /* Safari, Android, iOS */
+  
+    font-weight: 300; /* Adjust the weight value based on your font files */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Larken;
+  src: url('./Larken-LightItalic.eot'); /* IE9 Compat Modes */
+  src:
+    url('./Larken-LightItalic.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./Larken-LightItalic.woff2') format('woff2'),
+    /* Modern Browsers */ url('./Larken-LightItalic.woff') format('woff'),
+    /* Modern Browsers */ url('./Larken-LightItalic.ttf')
+      format('truetype'); /* Safari, Android, iOS */
+  
+      font-weight: 300; /* Adjust the weight value based on your font files */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Larken;
+  src: url('./Larken-Regular.eot'); /* IE9 Compat Modes */
+  src:
+    url('./Larken-Regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./Larken-Regular.woff2') format('woff2'),
+    /* Modern Browsers */ url('./Larken-Regular.woff') format('woff'),
+    /* Modern Browsers */ url('./Larken-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+  
+    font-weight: normal;
+  font-style: normal;
+}
+

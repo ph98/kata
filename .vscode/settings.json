@@ -1,3 +1,7 @@
 {
-    "scss.validate": false
+    "scss.validate": false,
+    "cSpell.words": [
+        "larken",
+        "stylelint"
+    ]
 }
