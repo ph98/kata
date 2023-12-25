@@ -18,7 +18,6 @@ const HeroSection = () => (
                 </span>
                 <span className={styles.gifContainer} />
             </div>
-
         </div>
 
         <div className={styles.textContainer}>
@@ -34,7 +33,13 @@ const HeroSection = () => (
             </button>
         </div>
 
-        
+        <span className={styles.topButtonContainer}>
+            <button>
+                <span className='icon icon-arrow-up'></span>
+                try jus mundi
+            </button>
+        </span>
+        <span className={styles.bottomShadow} />
     </section>
 );
 
