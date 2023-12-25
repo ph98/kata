@@ -3,18 +3,22 @@ import Image from 'next/image';
 
 import smallLogo from '@/app/resources/images/logo.svg';
 import bigLogo from '@/app/resources/images/logo-icc.svg';
-import movingArticles from '@/app/resources/images/moving-articles.gif';
 
 import styles from './styles.module.scss';
 
 const HeroSection = () => (
     <section className={styles.heroSection}>
         <div className={styles.logoContainer} >
-            <div>
-                <Image alt='ICC' width={323} height={165} src={bigLogo} />
-                <Image alt='Jus Mundi' width={107} height={38} src={smallLogo} />
-                <Image alt='articles' width={479} height={497} src={movingArticles} />
+            <div className={styles.logoBox}>
+                <span className={styles.bigLogoContainer}>
+                    <Image alt='ICC' width={323} height={165} src={bigLogo} />
+                </span>
+                <span className={styles.smallLogoContainer}>
+                    <Image alt='Jus Mundi' width={107} height={38} src={smallLogo} />
+                </span>
+                <span className={styles.gifContainer} />
             </div>
+
         </div>
 
         <div className={styles.textContainer}>
