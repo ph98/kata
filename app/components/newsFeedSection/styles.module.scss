@@ -1,0 +1,86 @@
+.newsFeedSection {
+  background: #f4f6f8;
+  padding: 2rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  > h5 {
+    color: var(--main-fake-black, #2c2b2e);
+    text-align: center;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+  }
+
+  > h3 {
+    color: var(--main-fake-black, #2c2b2e);
+    text-align: center;
+    font-kerning: none;
+    font-feature-settings: 'liga' off;
+    font-family: Larken;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem; /* 125% */
+    letter-spacing: -0.03125rem;
+  }
+  .readAllNews {
+    color: var(--main-fake-black, #2c2b2e);
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+  }
+  .newsFeedSectionRowContainer {
+    overflow-x: scroll;
+  }
+  .newsFeedSectionRow {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    flex-wrap: nowrap;
+    padding: 4rem;
+    padding-left: 8rem;
+    width: fit-content;
+  }
+}
+
+.newsFeedSectionItem {
+  border-radius: 0.5rem;
+  background: #fff;
+  display: flex;
+  padding: 0.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 21rem;
+  height: 9rem;
+  display: flex;
+  flex-direction: column;
+  h4 {
+    color: var(--main-blue, #3d8cbc);
+    font-family: IBM Plex Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem; /* 150% */
+  }
+
+  a {
+    color: var(--main-fake-black, #2c2b2e);
+    font-family: IBM Plex Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+    text-decoration-line: underline;
+  }
+}
