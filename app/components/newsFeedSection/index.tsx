@@ -4,6 +4,8 @@ import { newsFeedSectionItemProps } from './interface';
 
 import styles from './styles.module.scss'
 
+
+// TODO: fix the sort:
 const news = [
   {
     title: 'Corsair becomes the latest airline to pilot ICC AOKpass'
