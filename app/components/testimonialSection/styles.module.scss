@@ -5,6 +5,8 @@
   align-items: center;
   gap: 1rem;
   padding: 4.375rem;
+
+  // TODO: change to better selector:
   blockquote {
     display: flex;
     max-width: 40rem;
