@@ -1,3 +1,6 @@
+@import '../../../app/resources/styles/fonts.scss';
+
+
 .featuresSection {
   display: flex;
   flex-direction: row;
@@ -22,7 +25,7 @@
     max-width: 25rem;
     color: var(--main-fake-black, #2c2b2e);
     text-align: center;
-    font-family: IBM Plex Sans;
+    font-family: $fontIbmPlex;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -32,7 +35,7 @@
   h5 {
     color: var(--main-fake-black, #2c2b2e);
     text-align: center;
-    font-family: IBM Plex Sans;
+    font-family: $fontIbmPlex;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 700;

@@ -1,3 +1,5 @@
+@import '../../../app/resources/styles/fonts.scss';
+
 .newsFeedSection {
   background: #f4f6f8;
   padding: 2rem 0;
@@ -8,7 +10,7 @@
   > h5 {
     color: var(--main-fake-black, #2c2b2e);
     text-align: center;
-    font-family: Lato;
+    font-family: $fontLato;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 500;
@@ -31,7 +33,7 @@
   }
   .readAllNews {
     color: var(--main-fake-black, #2c2b2e);
-    font-family: Lato;
+    font-family: $fontLato;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 700;
@@ -68,7 +70,7 @@
   flex-direction: column;
   h4 {
     color: var(--main-blue, #3d8cbc);
-    font-family: IBM Plex Sans;
+    font-family: $fontIbmPlex;
     font-size: 1rem;
     font-style: normal;
     font-weight: 700;
@@ -77,7 +79,7 @@
 
   a {
     color: var(--main-fake-black, #2c2b2e);
-    font-family: IBM Plex Sans;
+    font-family: $fontIbmPlex;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;

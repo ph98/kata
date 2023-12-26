@@ -1,3 +1,4 @@
+@import '../../../app/resources/styles/fonts.scss';
 .partnershipSection {
     display: flex;
     gap: 2rem;
@@ -19,7 +20,7 @@
   .note {
     color: var(--main-fake-black, #2c2b2e);
     text-align: center;
-    font-family: IBM Plex Sans;
+    font-family: $fontIbmPlex;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;

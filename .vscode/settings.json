@@ -1,7 +1,9 @@
 {
     "scss.validate": false,
     "cSpell.words": [
+        "camelcase",
         "larken",
+        "lato",
         "mundi",
         "stylelint"
     ]
