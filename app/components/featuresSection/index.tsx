@@ -2,7 +2,7 @@ import React from 'react';
 
 import { featuresSectionItemProps } from './interface';
 
-import styles from './styles.module.scss'
+import styles from './styles.module.scss';
 
 const FeaturesSectionItem = ({
   icon,
@@ -39,14 +39,16 @@ const features = [
 
 const FeaturesSection = () => (
     <div className={styles.featuresSection}>
-        {features.map(({ icon, title, description }) => (
-            <FeaturesSectionItem
-                key={title}
-                icon={icon}
-                title={title}
-                description={description}
-      />
-    ))}
+        {
+          features.map(({ icon, title, description }) => (
+              <FeaturesSectionItem
+                  key={title}
+                  icon={icon}
+                  title={title}
+                  description={description}
+              />
+          ))
+        }
     </div>
 );
 

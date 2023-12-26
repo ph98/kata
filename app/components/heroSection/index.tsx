@@ -21,16 +21,19 @@ const HeroSection = () => (
         </div>
 
         <div className={styles.textContainer}>
-            <h1>
-                A Unique Partnership for the Publication of ICC Arbitration Awards
-            </h1>
-            <p className={styles.description}>
-                The International Chamber of Commerce (ICC) & Jus Mundi have joined forces to make ICC Arbitration Awards
-                and related materials freely available to the global legal community.
-            </p>
-            <button className={styles.button}>
-                Access ICC Awards
-            </button>
+            <div className={styles.textBox}>
+                <h1>
+                    A Unique Partnership for the Publication of ICC Arbitration Awards
+                </h1>
+                <p className={styles.description}>
+                    The International Chamber of Commerce (ICC) & Jus Mundi have joined forces to make ICC Arbitration Awards
+                    and related materials freely available to the global legal community.
+                </p>
+                <button className={styles.button}>
+                    Access ICC Awards
+                </button>
+            </div>
+           
         </div>
 
         <span className={styles.topButtonContainer}>
