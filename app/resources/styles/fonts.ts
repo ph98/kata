@@ -1,7 +1,7 @@
 // eslint-disable-next-line camelcase
 import { IBM_Plex_Sans, Lato } from "next/font/google"
 
-import './fonts.scss';
+import './_fonts.scss';
 
 const ibmPlexSans = IBM_Plex_Sans({
     weight: [
