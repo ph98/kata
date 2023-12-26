@@ -2,8 +2,10 @@
     "scss.validate": false,
     "cSpell.words": [
         "camelcase",
+        "fluo",
         "larken",
         "lato",
+        "liga",
         "mundi",
         "stylelint"
     ]

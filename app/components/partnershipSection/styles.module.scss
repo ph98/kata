@@ -1,11 +1,12 @@
 @import '../../../app/resources/styles/fonts.scss';
+@import '../../../app/resources/styles/colors.scss';
 .partnershipSection {
     display: flex;
     gap: 2rem;
     flex-direction: column;
     padding: 2.375rem;
   .title {
-    color: var(--main-fake-black, #2c2b2e);
+    color: $mainFakeBlack;
     text-align: center;
     font-kerning: none;
     font-feature-settings: 'liga' off;
@@ -13,12 +14,12 @@
     font-size: 3.5rem;
     font-style: normal;
     font-weight: 800;
-    line-height: 4rem; /* 114.286% */
+    line-height: 4rem;
     letter-spacing: -0.0625rem;
   }
   .description,
   .note {
-    color: var(--main-fake-black, #2c2b2e);
+    color: $mainFakeBlack;
     text-align: center;
     font-family: $fontIbmPlex;
     font-size: 1.125rem;
