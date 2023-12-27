@@ -3,34 +3,10 @@ import React from 'react';
 import { newsFeedSectionItemProps } from './interface';
 
 import styles from './styles.module.scss'
+import { news } from './constants';
 
 
-// TODO: fix the sort:
-const news = [
-  {
-    title: 'Corsair becomes the latest airline to pilot ICC AOKpass'
-  },
-  {
-    title:
-      'ICC warns EU vaccine export controls must be rolled back without delay'
-  },
-  {
-    title:
-      'Eduardo Silva Romero talks of advancing diversity, scope of ICC Institute as new Chair'
-  },
-  {
-    title:
-      'ICC/UNICEF: Funding shortfalls and supply chain challenges threaten equitable vaccine distribution'
-  },
-  {
-    title:
-      'Asdasda shortfalls and supply chain challenges threaten equitable vaccine distribution'
-  },
-  {
-    title:
-      'asdsaaklasdmnasd as d sad ls and supply chain challenges threaten equitable vaccine distribution'
-  }
-];
+
 
 const NewsFeedSectionItem = (({title, link}: newsFeedSectionItemProps) => (
     <div className={styles.newsFeedSectionItem}>
@@ -46,9 +22,9 @@ const NewsFeedSection = () => (
         <div className={styles.newsFeedSectionRowContainer}>
             <div className={styles.newsFeedSectionRow}>
                 {
-                news.map(({title}) => (
+                news.map(({title, id}) => (
                     <NewsFeedSectionItem 
-                        key={title}
+                        key={id}
                         title={title}
                         link='#'
                     />

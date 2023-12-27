@@ -19,6 +19,7 @@
   ],
   "plugins": ["react", "simple-import-sort"],
   "rules": {
+    "import/prefer-default-export": ["false"],
     "jsx-quotes": ["error", "prefer-single"],
     "react/jsx-indent": ["error", 4],
     "padded-blocks": ["error", "always"],
